@@ -1,0 +1,11 @@
+import csv
+
+f= open('C:\Users\Snod\Documents\c3po_h2d2\DATA_for_Target_Stars_new_csv.csv')
+
+csv_f = csv.reader(f)
+
+for row in csv_f:
+    print row
+
+f.close 
+
