@@ -5,7 +5,32 @@ f= open('C:\Users\Snod\Documents\c3po_h2d2\DATA_for_Target_Stars_new_csv.csv')
 csv_f = csv.reader(f)
 
 for row in csv_f:
-    print row
+    print row []
 
 f.close 
 
+##to get complete list of data type
+
+for row in csv_f:
+    print row[2]
+f.close
+
+
+##to get data from specific star/row
+
+csvFileArray = []
+for row in csv_f:
+    csvFileArray.append(row)
+
+print(csvFileArray[0])        #index gives row
+
+
+
+##to get cell
+csvFileArray = []
+for row in csv_f:
+    csvFileArray.append(row)
+
+
+data=csvFileArray[0] and data=row[2]
+print data
