@@ -34,3 +34,24 @@ for row in csv_f:
 
 data=csvFileArray[0] and data=row[2]
 print data
+
+
+
+
+#to fill empty spaces with NAN------ Doesn't Work YET
+"""
+for row in csv_f:
+    x=row[18]
+    if len(x)==0 or '~' in csv_f:
+        x="NAN"
+        print x
+"""
+
+#DEMO of filler code------ Doesn't Work YET
+"""
+c= ""
+if len(c)==0 or '~' in c:
+    c="NAN"
+    
+print c
+"""
