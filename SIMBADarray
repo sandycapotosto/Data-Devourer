@@ -1,0 +1,39 @@
+"""
+Created on Sat Feb 18 15:01:28 2017
+
+@author: Sandy Capotosto
+
+PURPOSE: convert tables/csv files into a NUMPY ARRAY!
+Project Name: NumpyArrayAttempt
+
+
+"""
+
+
+                        ##Importing libraries
+import csv
+import numpy as np
+
+
+                        ##Here, we take the CSV file and read it into python. It is now a list.
+                        
+SIMBADtable_file= open('C:\Users\Snod\Documents\c3po_h2d2\DATA_for_Target_Stars_new_csv.csv')
+
+SIMBADtable = csv.reader(SIMBADtable_file)
+SIMBADlist = list(SIMBADtable)
+
+
+
+"""
+                          ##Lets test how arrays work! - NumPy
+                            
+arraytest = np.array ([[1,2,3],[4,5,6]])      
+print "the numpy array works?!"
+print arraytest
+"""
+
+
+                         ##Here, we transform the SIMBAD list into a SIMBAD array
+                         
+SIMBADarray = np.array(SIMBADlist)
+print SIMBADarray
