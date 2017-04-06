@@ -1,0 +1,34 @@
+"""
+
+--------------------------------------C3PO-for-H2D2-------------------------------------------
+
+---------Code Characterizing Circumstellar Particles Observed for [H, H] Debris Disks---------
+
+
+Alessandra Capotosto, Marlyd Mejia
+
+
+
+--------------------------------------DATA DEVOURER-------------------------------------------
+
+--PURPOSE:
+
+This routine takes data obtained from 5 telescopes: Spitzer, WISE, 2MASS, Gaia, and Herschel.
+
+It cross-references data from all telescopes to create a database for 375***** stars.
+
+Each star has its own file, containing data from each telescope.
+
+--PROCEDURE:
+
+
+--TELESCOPE, SOURCE, AND NUMBER OF TARGETS
+
+Spitzer IRS    - CASSIS - 217
+WISE (AllWISE) - Gator  - 144
+2MASS          - Simbad - 375
+Gaia           - Gaia   - 199
+Herschel PACS  -        - 376
+
+
+"""
